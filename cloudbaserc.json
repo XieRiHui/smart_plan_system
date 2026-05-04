@@ -1,0 +1,58 @@
+﻿{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "envId": "smart-d3gdo2kb0dd16f0e4",
+  "functionRoot": "cloudfunctions",
+  "functions": [
+    {
+      "name": "weather",
+      "runtime": "Nodejs18.15",
+      "handler": "index.main",
+      "installDependency": true,
+      "envVariables": {
+        "CLOUDBASE_ENV_ID": "smart-d3gdo2kb0dd16f0e4"
+      }
+    },
+    {
+      "name": "plan",
+      "runtime": "Nodejs18.15",
+      "handler": "index.main",
+      "installDependency": true,
+      "envVariables": {
+        "CLOUDBASE_ENV_ID": "smart-d3gdo2kb0dd16f0e4"
+      }
+    },
+    {
+      "name": "locations",
+      "runtime": "Nodejs18.15",
+      "handler": "index.main",
+      "installDependency": true,
+      "envVariables": {
+        "CLOUDBASE_ENV_ID": "smart-d3gdo2kb0dd16f0e4"
+      }
+    },
+    {
+      "name": "itinerary",
+      "runtime": "Nodejs18.15",
+      "handler": "index.main",
+      "installDependency": true,
+      "envVariables": {
+        "CLOUDBASE_ENV_ID": "smart-d3gdo2kb0dd16f0e4"
+      }
+    },
+    {
+      "name": "ai",
+      "runtime": "Nodejs18.15",
+      "handler": "index.main",
+      "installDependency": true,
+      "envVariables": {
+        "CLOUDBASE_ENV_ID": "smart-d3gdo2kb0dd16f0e4"
+      }
+    }
+  ]
+}
+
+
+
+
+
+
