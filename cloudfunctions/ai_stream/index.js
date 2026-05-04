@@ -107,7 +107,7 @@ async function generateSummaryViaExistingAiFunction(planId) {
   return summary;
 }
 
-function streamText(res, fullText, { chunkSize = 1, intervalMs = 125 } = {}) {
+function streamText(res, fullText, { chunkSize = 5, intervalMs = 200 } = {}) {
   return new Promise((resolve) => {
     const text = String(fullText || "");
     const chunks = [];
